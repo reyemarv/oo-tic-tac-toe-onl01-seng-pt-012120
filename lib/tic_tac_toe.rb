@@ -102,5 +102,17 @@ class TicTacToe
         then @board[combination.first]
       end 
     end 
+    
+    def play 
+      if !over?
+        turn 
+      else if won?
+        puts "Congratulation #{winner}"
+      else if draw?
+        puts "Ended in draw"
+      end
+    end
+  end
+end 
 end 
 
