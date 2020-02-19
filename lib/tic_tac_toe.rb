@@ -105,11 +105,11 @@ class TicTacToe
     
     def play 
         turn
-       if over?
       else if won?
         puts "Congratulation #{winner}"
       else if draw?
-        puts "Ended in draw"
+        puts "Ended in draw"       if over?
+
       end
     end
   end
