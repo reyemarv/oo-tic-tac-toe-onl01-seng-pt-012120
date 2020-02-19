@@ -84,4 +84,10 @@ class TicTacToe
         end 
       end 
     end 
+    
+    def full? 
+      if !won?
+        true
+      end 
+    end 
 end 
