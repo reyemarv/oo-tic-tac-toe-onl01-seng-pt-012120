@@ -59,6 +59,14 @@ class TicTacToe
       end 
     end 
     
+    def turn(i)
+      if valid_move?(input_to_index(i))
+        move(i, token = "X")
+        display_board
+      else 
+      
+      
+    
     def won?
       WIN_COMBINATIONS.detect do |combination|
         if combination[0] == "X" && combination[1] == "X" && combination[2] == "X"
