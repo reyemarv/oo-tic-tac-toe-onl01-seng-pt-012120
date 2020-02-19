@@ -67,6 +67,7 @@ class TicTacToe
           then combination
         else false 
         end 
+        end 
       end 
     end 
 end 
