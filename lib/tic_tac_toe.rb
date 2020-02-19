@@ -75,9 +75,9 @@ class TicTacToe
     
     def won?
       WIN_COMBINATIONS.detect do |combination|
-        if @board[combination[0]] == "X" && combination[1] == "X" && combination[2] == "X"
+        if @board[combination[0]] == "X" && @board[combination[1]] == "X" && @board[combination[2]] == "X"
           then combination
-        else if combination [0] == "O" && combination[1] == "O" && combination[2] == "O"
+        else if @board[combination [0]] == "O" && @board[combination[1]] == "O" && @board[combination[2]] == "O"
           then combination
         else false 
         end 
