@@ -60,7 +60,7 @@ class TicTacToe
     end 
     
     def turn(i)
-      puts "Please enter "
+      puts "Please enter 1-9:"
       if valid_move?(input_to_index(i))
         move(i, token = "X")
         display_board
