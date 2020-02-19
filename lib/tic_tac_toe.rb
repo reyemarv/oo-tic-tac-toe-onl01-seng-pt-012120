@@ -59,7 +59,7 @@ class TicTacToe
       end 
     end 
     
-    def turn(input)
+    def turn
       puts "Please enter 1-9:"
       index = input_to_index(input)
       if valid_move?(index)
