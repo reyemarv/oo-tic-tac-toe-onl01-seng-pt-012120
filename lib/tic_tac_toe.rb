@@ -49,5 +49,6 @@ class TicTacToe
           turns += 1 
         else turns
         end 
+      end 
     end 
 end 
