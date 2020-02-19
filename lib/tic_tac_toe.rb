@@ -47,7 +47,6 @@ class TicTacToe
       board.each do |i|
         if i == "X" || "O"
           turns += 1 
-        else turns 
         end 
       end 
     end 
