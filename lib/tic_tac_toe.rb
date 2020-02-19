@@ -99,7 +99,7 @@ class TicTacToe
     
     def winner
       if comination = won?
-        then @board[combination.first}]
+        then @board[combination.first]
       end 
     end 
 end 
