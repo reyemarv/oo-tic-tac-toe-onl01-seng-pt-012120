@@ -44,6 +44,7 @@ class TicTacToe
     
     def turn_count(board)
       turns = 0 
-      @board.each {|i| if board[i] == "X" || "O" += 1}
+      board.each {|i| if i == "X" || "O" 
+        turns += 1}
     end 
 end 
