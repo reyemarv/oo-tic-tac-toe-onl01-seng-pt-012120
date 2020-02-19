@@ -103,7 +103,8 @@ class TicTacToe
           puts "X"
         else if @board[combination [0]] == "O" && @board[combination[1]] == "O" && @board[combination[2]] == "O"
           puts "O"
-          end 
+        end 
       end 
-    end 
+    end
+  end 
 end 
