@@ -65,4 +65,8 @@ class TicTacToe
           then combination
         else if combination [0] == "O" && combination[1] == "O" && combination[2] == "O"
           then combination
+        else false 
+        end 
+      end 
+    end 
 end 
