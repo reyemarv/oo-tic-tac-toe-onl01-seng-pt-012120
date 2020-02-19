@@ -96,4 +96,8 @@ class TicTacToe
     def over? 
       won? || full?
     end 
+    
+    def winner
+      current_player.won?
+    end 
 end 
